@@ -1,0 +1,7 @@
+C:\Users\12345\Desktop\NSO\Algorithms\Lesson 2\ImplementatiosOfSortings\ImplementatiosOfSortings\bin\Debug\ImplementatiosOfSortings.exe.config
+C:\Users\12345\Desktop\NSO\Algorithms\Lesson 2\ImplementatiosOfSortings\ImplementatiosOfSortings\bin\Debug\ImplementatiosOfSortings.exe
+C:\Users\12345\Desktop\NSO\Algorithms\Lesson 2\ImplementatiosOfSortings\ImplementatiosOfSortings\bin\Debug\ImplementatiosOfSortings.pdb
+C:\Users\12345\Desktop\NSO\Algorithms\Lesson 2\ImplementatiosOfSortings\ImplementatiosOfSortings\obj\Debug\ImplementatiosOfSortings.csprojAssemblyReference.cache
+C:\Users\12345\Desktop\NSO\Algorithms\Lesson 2\ImplementatiosOfSortings\ImplementatiosOfSortings\obj\Debug\ImplementatiosOfSortings.csproj.CoreCompileInputs.cache
+C:\Users\12345\Desktop\NSO\Algorithms\Lesson 2\ImplementatiosOfSortings\ImplementatiosOfSortings\obj\Debug\ImplementatiosOfSortings.exe
+C:\Users\12345\Desktop\NSO\Algorithms\Lesson 2\ImplementatiosOfSortings\ImplementatiosOfSortings\obj\Debug\ImplementatiosOfSortings.pdb
