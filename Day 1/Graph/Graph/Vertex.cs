@@ -72,5 +72,11 @@ namespace Graph
             return Neighbors.Aggregate(new StringBuilder($"{Value}: "), (sb, n) => sb.Append($"{n.Value} ")).ToString();
             //return $"{Value}: {(string.Join(" ", Neighbors.Select(n => n.Value)))}";
         }
+
+
+
+        //++++++++++++++++++++++++
+        public int FarFromBase=-1;
+        public Vertex<int> parent;
     }
 }

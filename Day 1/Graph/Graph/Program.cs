@@ -11,17 +11,20 @@ namespace Graph
         /*
          i tried to implement the graph'
          but it didn't go so well...
-         so I looked for an exisist realization'
+         so I looked for an exisist implementation.
          I read and understood it
          and relied on it.
          */
         static void Main(string[] args)
         {
             //Ex1();
-            Ex2();
+            // Ex2();
+            //BFS(CreateAdjList());
+
         }
 
 
+        //==================== STEPPNIG NUMBERS =======
         private static void Ex1()
         {
             int from = 0, to = 21;
@@ -63,6 +66,7 @@ namespace Graph
         }
 
 
+        //==================== TREES IN FOREST =======
         private static void Ex2()
         {
             List<Vertex<int>> n1 = new List<Vertex<int>>();
@@ -78,13 +82,13 @@ namespace Graph
             Vertex<int> v9 = new Vertex<int>(10);
             Vertex<int> v10 = new Vertex<int>(11);
             Vertex<int> v11 = new Vertex<int>(12);
-           
+
             n4.Add(v9);
             n4.Add(v10);
             n4.Add(v11);
 
             //first tree----------- 2,3,4,10,11,12
-            Vertex<int> v2 = new Vertex<int>(3,n4);
+            Vertex<int> v2 = new Vertex<int>(3, n4);
             n1.Add(v2);
             n1.Add(v3);
             Vertex<int> v1 = new Vertex<int>(2, n1);
@@ -101,13 +105,16 @@ namespace Graph
 
 
         }
+
+
+        //==================== DFS =======
         public static void Explore(Vertex<int> vertex)
         {
             foreach (var neighbor in vertex.Neighbors)
             {
-                if(!neighbor.IsVisited)
+                if (!neighbor.IsVisited)
                 {
-                    Console.Write(" "+neighbor.Value+", ");
+                    Console.Write(" " + neighbor.Value + ", ");
                     neighbor.IsVisited = true;
                     Explore(neighbor);
                 }
@@ -122,7 +129,7 @@ namespace Graph
             {
                 if (!vertex.IsVisited)
                 {
-                    Console.Write("Tree "+(cnt+1)+ " with vertexs: " +vertex.Value+", ");
+                    Console.Write("Tree " + (cnt + 1) + " with vertexs: " + vertex.Value + ", ");
                     vertex.IsVisited = true;
                     Explore(vertex);
                     cnt++;
@@ -132,6 +139,34 @@ namespace Graph
             Console.WriteLine("the forest graph contain " + cnt + " trees.");
 
         }
+
+
+        //==================== BFS ========
+        public static void BFS(List<Vertex<int>> adjList)
+        {
+            Queue<Vertex<int>> qTemp = new Queue<Vertex<int>>();
+            qTemp.Enqueue(adjList[0]);
+            adjList[0].FarFromBase = 0;
+            adjList[0].parent = null;
+            Console.Write(" " + adjList[0].Value + ", ");
+            while (qTemp.Count != 0)
+            {
+                Vertex<int> currV = qTemp.Dequeue();
+                foreach (var neighbor in currV.Neighbors)
+                {
+                    if (neighbor.IsVisited == false)
+                    {
+                        Console.Write(" " + neighbor.Value + ", ");
+                        neighbor.IsVisited = true;
+                        neighbor.FarFromBase = neighbor.FarFromBase + 1;
+                        neighbor.parent = currV;
+                        qTemp.Enqueue(neighbor);
+                    }
+                }
+            }
+
+        }
+
 
     }
 }

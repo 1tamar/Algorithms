@@ -14,9 +14,11 @@ namespace BinaryTree
             root.Left = new Node<int>(20);
             root.Right = new Node<int>(30);
             root.Left.Left = new Node<int>(40);
-            //root.Left.Right = new Node<int>(50);
-            //root.Right.Left = new Node<int>(40);
-               root.Right.Right = new Node<int>(50);
+            root.Left.Right = new Node<int>(50);
+            root.Right.Left = new Node<int>(40);
+            root.Right.Right = new Node<int>(50);
+            root.Left.Left.Left = new Node<int>(1000);
+            root.Right.Right.Right = new Node<int>(1000);
 
             //  NthNode(root, 4);
             Console.WriteLine(IsAllLeavesInSameLevel(root));
@@ -53,11 +55,16 @@ namespace BinaryTree
 
         public static bool IsAllLeavesInSameLevel(Node<int> node)
         {
-            return Height(node.Left) == Height(node.Right);
+     
+
+            return IsAllLeavesInSameLevel(node.Left) == IsAllLeavesInSameLevel(node.Right);
         }
         public static int Height(Node<int> node)
         {
-            if (node == null || node.Left == null && node.Right == null)
+            if (node.Left == null && node.Right == null)
+                return 1;
+
+                if (node == null || node.Left == null && node.Right == null)
                 return 0;
             return 1 + Math.Max(Height(node.Left), Height(node.Right));
         }

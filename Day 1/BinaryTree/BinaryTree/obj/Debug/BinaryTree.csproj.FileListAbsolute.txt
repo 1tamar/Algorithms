@@ -5,3 +5,10 @@ C:\Users\12345\Desktop\NSO\Algorithms\Lesson 1\BinaryTree\BinaryTree\bin\Debug\B
 C:\Users\12345\Desktop\NSO\Algorithms\Lesson 1\BinaryTree\BinaryTree\bin\Debug\BinaryTree.pdb
 C:\Users\12345\Desktop\NSO\Algorithms\Lesson 1\BinaryTree\BinaryTree\obj\Debug\BinaryTree.exe
 C:\Users\12345\Desktop\NSO\Algorithms\Lesson 1\BinaryTree\BinaryTree\obj\Debug\BinaryTree.pdb
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe.config
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\BinaryTree\BinaryTree\bin\Debug\BinaryTree.pdb
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csprojAssemblyReference.cache
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csproj.CoreCompileInputs.cache
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\BinaryTree\BinaryTree\obj\Debug\BinaryTree.exe
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\BinaryTree\BinaryTree\obj\Debug\BinaryTree.pdb

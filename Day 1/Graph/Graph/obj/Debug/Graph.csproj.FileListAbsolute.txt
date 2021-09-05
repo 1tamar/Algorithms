@@ -5,3 +5,10 @@ C:\Users\12345\Desktop\NSO\Algorithms\Lesson 1\Graph\Graph\obj\Debug\Graph.cspro
 C:\Users\12345\Desktop\NSO\Algorithms\Lesson 1\Graph\Graph\obj\Debug\Graph.csproj.CoreCompileInputs.cache
 C:\Users\12345\Desktop\NSO\Algorithms\Lesson 1\Graph\Graph\obj\Debug\Graph.exe
 C:\Users\12345\Desktop\NSO\Algorithms\Lesson 1\Graph\Graph\obj\Debug\Graph.pdb
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\Graph\Graph\bin\Debug\Graph.exe.config
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\Graph\Graph\bin\Debug\Graph.exe
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\Graph\Graph\bin\Debug\Graph.pdb
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\Graph\Graph\obj\Debug\Graph.csprojAssemblyReference.cache
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\Graph\Graph\obj\Debug\Graph.csproj.CoreCompileInputs.cache
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\Graph\Graph\obj\Debug\Graph.exe
+C:\Users\12345\Desktop\NSO\Algorithms\Day 1\Graph\Graph\obj\Debug\Graph.pdb
