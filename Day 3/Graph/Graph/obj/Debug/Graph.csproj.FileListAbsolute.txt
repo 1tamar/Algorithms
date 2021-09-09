@@ -1,0 +1,7 @@
+C:\Users\12345\Desktop\NSO\Algorithms\Day 3\Graph\Graph\obj\Debug\Graph.csprojAssemblyReference.cache
+C:\Users\12345\Desktop\NSO\Algorithms\Day 3\Graph\Graph\obj\Debug\Graph.csproj.CoreCompileInputs.cache
+C:\Users\12345\Desktop\NSO\Algorithms\Day 3\Graph\Graph\bin\Debug\Graph.exe.config
+C:\Users\12345\Desktop\NSO\Algorithms\Day 3\Graph\Graph\bin\Debug\Graph.exe
+C:\Users\12345\Desktop\NSO\Algorithms\Day 3\Graph\Graph\bin\Debug\Graph.pdb
+C:\Users\12345\Desktop\NSO\Algorithms\Day 3\Graph\Graph\obj\Debug\Graph.exe
+C:\Users\12345\Desktop\NSO\Algorithms\Day 3\Graph\Graph\obj\Debug\Graph.pdb

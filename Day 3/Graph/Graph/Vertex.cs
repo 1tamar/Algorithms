@@ -6,13 +6,18 @@ using System.Threading.Tasks;
 
 namespace Graph
 {
+    //enum status { snake=1,roddle,regular};
+
     class Vertex<T>
     {
+        public int FarFromPrevious = -1;
         public int FarFromBase = -1;
-        public Vertex<int> parent;
+        public Vertex<int> parent=null;
+        public bool IsVisited = false;
+        // public status status;
+        public int howManyThrow = -1;
         public T Value { get; }   // can be made writable
         public List<Vertex<T>> Neighbors { get; }
-        public bool IsVisited { get; set; }
         public Vertex(T value, IEnumerable<Vertex<T>> neighbors = null)
         {
             Value = value;
