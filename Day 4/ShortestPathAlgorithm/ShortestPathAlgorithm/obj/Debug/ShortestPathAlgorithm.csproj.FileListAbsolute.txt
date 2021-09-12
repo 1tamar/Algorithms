@@ -1,0 +1,7 @@
+C:\Users\12345\Desktop\NSO\Algorithms\Day 4\ShortestPathAlgorithm\ShortestPathAlgorithm\bin\Debug\ShortestPathAlgorithm.exe.config
+C:\Users\12345\Desktop\NSO\Algorithms\Day 4\ShortestPathAlgorithm\ShortestPathAlgorithm\bin\Debug\ShortestPathAlgorithm.exe
+C:\Users\12345\Desktop\NSO\Algorithms\Day 4\ShortestPathAlgorithm\ShortestPathAlgorithm\bin\Debug\ShortestPathAlgorithm.pdb
+C:\Users\12345\Desktop\NSO\Algorithms\Day 4\ShortestPathAlgorithm\ShortestPathAlgorithm\obj\Debug\ShortestPathAlgorithm.csprojAssemblyReference.cache
+C:\Users\12345\Desktop\NSO\Algorithms\Day 4\ShortestPathAlgorithm\ShortestPathAlgorithm\obj\Debug\ShortestPathAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\12345\Desktop\NSO\Algorithms\Day 4\ShortestPathAlgorithm\ShortestPathAlgorithm\obj\Debug\ShortestPathAlgorithm.exe
+C:\Users\12345\Desktop\NSO\Algorithms\Day 4\ShortestPathAlgorithm\ShortestPathAlgorithm\obj\Debug\ShortestPathAlgorithm.pdb
